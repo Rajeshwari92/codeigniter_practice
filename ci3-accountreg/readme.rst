@@ -69,3 +69,21 @@ Acknowledgement
 
 The CodeIgniter team would like to thank EllisLab, all the
 contributors to the CodeIgniter project and you, the CodeIgniter user.
+
+**************
+DATABASE AND TABLE
+**************
+
+--database : cidb
+
+Table structure for table `person_info`
+--
+
+CREATE TABLE `tblusers` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `Firstname` varchar(250) NOT NULL,
+   `Lastname` varchar(250) NOT NULL,
+  `Email` varchar(250) NOT NULL ,
+   `Password` varchar(250) NOT NULL,
+   PRIMARY KEY  (id)
+	) $charset_collate;";
