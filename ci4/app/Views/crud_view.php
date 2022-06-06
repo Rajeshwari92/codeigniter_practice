@@ -69,12 +69,12 @@
                 <div>
                     <?php
 
-                    if($pagination_link)
-                    {
-                        $pagination_link->setPath('ci4/crud');
+                    // if($pagination_link)
+                    // {
+                    //     $pagination_link->setPath('ci4/crud');
 
-                        echo $pagination_link->links();
-                    }
+                    //     echo $pagination_link->links();
+                    // }
                     
                     ?>
 
@@ -87,7 +87,7 @@
 </body>
 </html>
 <style>
-.pagination li a
+/* .pagination li a
 {
     position: relative;
     display: block;
@@ -104,7 +104,7 @@
     color: #fff;
     background-color: #007bff;
     border-color: #007bff;
-}
+} */
 </style>
 <script>
 function delete_data(id)

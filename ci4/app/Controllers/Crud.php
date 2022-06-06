@@ -14,7 +14,7 @@ class Crud extends BaseController
 
 		$data['user_data'] = $crudModel->orderBy('id', 'DESC')->paginate(10);
 
-		$data['pagination_link'] = $crudModel->pager;
+		//$data['pagination_link'] = $crudModel->pager;
 
 		return view('crud_view', $data);
 	}
